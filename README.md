@@ -46,15 +46,27 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-# creating a new repository with typescript
+# client
+## creating a new repository with typescript
 npx create-react-app@latest ./ --template typescript
 
-# adding typescript into an exsiting repository
+## adding typescript into an exsiting repository
 npm install --save typescript @types/node @types/react @types/react-dom @types/jest
 
-# install developing environment
+## install developing environment
 npm install -D tailwindcss
 npx tailwindcss init
 npm i react-router-dom
 npm install @mui/material @emotion/react @emotion/styled
 npm install @mui/icons-material 
+npm i react-virtuoso
+npm i @mui/lab
+npm install @mui/x-date-pickers
+npm install @mui/styled-engine-sc styled-components
+npm install dayjs --save
+
+# In server floder
+npm init -y
+npm i -D nodemon
+npm i express body-parser cors mongoose
+ 
