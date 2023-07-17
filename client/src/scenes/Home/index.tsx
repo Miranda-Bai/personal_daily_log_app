@@ -18,7 +18,7 @@ const Home = ({ user }: Props) => {
   // console.log("user in home section: ", user)
   
   return (
-    <main className="w-full h-full">
+    <main className="w-full h-full mt-20">
       <Content />
     </main>
   );

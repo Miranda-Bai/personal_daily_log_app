@@ -13,6 +13,9 @@ module.exports = {
         "accent-red": "#EA9648",
         "accent-orange": "#F6CF68",
         "accent-green": "#C2E9B4",
+        "primary-gray":"#5E0000",
+        "btn-bgcolor":"#FFC132",
+        "btn-hovercolor":"#FF6B66"
       },
     },
     screens: {

@@ -52,7 +52,7 @@ const Content = () => {
         flexGrow: 1,
         bgcolor: "background.paper",
         display: "flex",
-        height: "100%",
+        height: "90%",
         width: "100%",
       }}
     >
@@ -74,11 +74,11 @@ const Content = () => {
       </Tabs>
 
       <TabPanel value={value} index={0}>
-        <CreateButton />
+        {/* <CreateButton /> */}
         <TableView />
       </TabPanel>
       <TabPanel value={value} index={1}>
-        <CreateButton />
+        {/* <CreateButton /> */}
         <CardView />
       </TabPanel>
       <TabPanel value={value} index={2}>
